@@ -1,0 +1,22 @@
+{
+    "name": "GetTime",
+    "version": "1.0.0",
+    "description": "A library for getting and displaying NTP time on MAX72xx LED matrix.",
+    "keywords": "NTP, time, LED display",
+    "author": "Your Name",
+    "maintainer": "Your Name <your_email@example.com>",
+    "license": "MIT",
+    "homepage": "https://github.com/yourusername/GetTime",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yourusername/GetTime.git"
+    },
+    "dependencies": {
+        "NTPClient": ">=3.2.0",
+        "WiFi": ">=1.0.0",
+        "MD_Parola": ">=1.0.0",
+        "MD_MAX72xx": ">=1.0.0"
+    },
+    "frameworks": ["arduino"],
+    "platforms": ["*"]
+}
